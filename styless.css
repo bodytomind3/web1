@@ -1,0 +1,155 @@
+@charset "utf-8"
+
+body {
+	font:14px 맑은 고딕;
+}
+a img{
+	border : none;
+}
+/* ;을 안할시 문단이 이어지기 때문에 반드시 끝에 ;을 붙인다 */
+a:link {
+	color:#424136C;
+	text-decoration:underline;
+}
+a:visited{
+	color:#6E6C64;
+	text-decoration:underline;
+}
+a:hover, a:active, a:focus{/* 마우스 효과*/
+	text-decoration:none;
+}
+.container{
+	width : 1100px;
+	margin : 0 auto;/*  자동으로 설정  */
+	background-color:gray;/* #fff */
+	border : 5px solid black ;/* #E7E7E7 */
+	text-align:center;
+}
+/*header {
+	height : 280;
+	margin-top : 0;
+	/*background-image : url(a.jpg);*/
+	/*background-repeat : no-repeat;
+	background-position : left top;/* 위치 */
+header{
+	width: 100%;
+	height: 150px;
+	background-color: #F46075;
+	background-image: url("../image/c1.jpg");
+	background-repeat: no-repeat;
+	background-position: right center;
+
+}
+hgroup h1 {
+	font-size: 3em;
+	color:#ffc;
+	text-shadow:1px 2px 2px #000;
+}
+hgroup h2 {
+	font-size: 3em;
+	color:#ffc;
+	text-shadow:0px 1px 1px #000;
+}
+h1 {
+ font-family:Arial, Helvetica,sans-serif;
+}
+h4 {
+
+}
+
+.navi{
+	background: black;/*#003E00*/
+	margin-top:-15px;
+	width:1100px;
+	height:60px;
+}
+.navi ul{
+	list-style : none;
+	height:40px;
+	padding-top:10px;
+	padding-bottom:5px;
+}
+.navi ul li{
+	display:inline;
+	float:left;
+	font-size:15px;
+}
+.navi a, .navi a:visited{/* padding 박스 안 글자 있을경우 여백 위치 조정 */
+	padding:10px 5px 5px 35px;
+	display:block;/*하나로 묶는다*/
+	color:black;/*#fff3*/
+	width:150;
+	text-decoration:none;
+}
+.navi a:hover, .navi a:visited, .navi a:focus{/*hover 함수*/
+	text-shadow:0px 2px 2px #000;
+	color:#FC0;
+}
+.sidebar1 { /*사이드바에 기능 사용*/
+	float:right;
+	width:300px;
+	height:755px;
+	background-color:#DFD;
+	padding-top:5px;
+	padding-left:10px;/*왼쪽으로 10*/
+	padding-right:10px;/* 오른쪽으로 10*/
+}
+.sidebar1 img {
+	margin-bottom:5px;
+	border:1px solid #CCC;
+	opacity:0,6;
+	text-align:center;
+}
+
+.sidebar1 img:hover{
+	border:1px solid #000;
+	opacity:1,0;
+}
+
+.content {
+	background-color:#FFFFFF;
+	padding-top:0px;
+	padding-left:10px;
+	width:720px;
+	float:left;
+}
+
+footer {
+padding:3px 0;
+background-color:#030;
+color:#fff;
+text-align:center;
+clear:both;
+}
+
+header, section, footer, aside, article, figure{
+	display:block;
+}
+
+.banner {
+	margin:0px 10px 15px 10px;
+	padding:0;
+}
+
+th{
+	border: 1px solid red;
+	margin-right:0;
+	padding: 5px;
+	width:120px;
+}
+
+td{
+	border: 1px solid red;
+	color: blue
+	font-weight: bold;
+}
+
+tfoot{
+	background-color: #ccc;
+	font-weight:bold;
+	text-align: center;
+
+}
+
+thead{background-color: #ccc;
+}
